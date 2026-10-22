@@ -30,7 +30,7 @@ def find_bot_id(player):
             return bot["PlayfabID"]
 
 
-def extract_all_info_from_round(round_path):
+def extract_all_info_from_round(round_path, bots=False):
     """
     Extract all the information from a round file and return it as a dictionary
     """
@@ -57,7 +57,9 @@ def extract_all_info_from_round(round_path):
         placement = values[-2]
         true_score = values[-1]
 
-        if playfab_id =="":
+        if playfab_id == "":
+            if not bots:
+                continue
             playfab_id = find_bot_id(player)
 
         round_info[playfab_id] = {
@@ -72,14 +74,14 @@ def extract_all_info_from_round(round_path):
 
     return round_info
 
-def extract_all_info_from_all_rounds():
+def extract_all_info_from_all_rounds(bots=False):
     """
     Extract all the information from all round files and return it as a dictionary
     """
     rounds=[]
     rounds_path = find_rounds_path()
     for round_path in rounds_path:
-        round_info = extract_all_info_from_round(round_path)
+        round_info = extract_all_info_from_round(round_path, bots)
         rounds.append(round_info)
 
     return rounds
