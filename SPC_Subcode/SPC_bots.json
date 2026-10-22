@@ -1,0 +1,339 @@
+﻿[
+    {
+        "Player":  "Alice Pooper",
+        "PlayfabID":  "B01"
+    },
+    {
+        "Player":  "Ash",
+        "PlayfabID":  "B02"
+    },
+    {
+        "Player":  "Banan",
+        "PlayfabID":  "B03"
+    },
+    {
+        "Player":  "Bandit",
+        "PlayfabID":  "B04"
+    },
+    {
+        "Player":  "Barkley",
+        "PlayfabID":  "B05"
+    },
+    {
+        "Player":  "Bella",
+        "PlayfabID":  "B06"
+    },
+    {
+        "Player":  "Bellatrix",
+        "PlayfabID":  "B07"
+    },
+    {
+        "Player":  "Bobo",
+        "PlayfabID":  "B08"
+    },
+    {
+        "Player":  "Boopsie",
+        "PlayfabID":  "B09"
+    },
+    {
+        "Player":  "Bubbles",
+        "PlayfabID":  "B10"
+    },
+    {
+        "Player":  "Buddy",
+        "PlayfabID":  "B11"
+    },
+    {
+        "Player":  "Buster",
+        "PlayfabID":  "B12"
+    },
+    {
+        "Player":  "Cake",
+        "PlayfabID":  "B13"
+    },
+    {
+        "Player":  "Carpet",
+        "PlayfabID":  "B14"
+    },
+    {
+        "Player":  "Chicken Salad",
+        "PlayfabID":  "B15"
+    },
+    {
+        "Player":  "Chloe",
+        "PlayfabID":  "B16"
+    },
+    {
+        "Player":  "Choochoo",
+        "PlayfabID":  "B17"
+    },
+    {
+        "Player":  "Clifford",
+        "PlayfabID":  "B18"
+    },
+    {
+        "Player":  "Clive",
+        "PlayfabID":  "B19"
+    },
+    {
+        "Player":  "Crash",
+        "PlayfabID":  "B20"
+    },
+    {
+        "Player":  "Cuddles",
+        "PlayfabID":  "B21"
+    },
+    {
+        "Player":  "Daisy",
+        "PlayfabID":  "B22"
+    },
+    {
+        "Player":  "Dave Growl",
+        "PlayfabID":  "B23"
+    },
+    {
+        "Player":  "Dave from Sales",
+        "PlayfabID":  "B24"
+    },
+    {
+        "Player":  "Dobby",
+        "PlayfabID":  "B25"
+    },
+    {
+        "Player":  "Dr. Taco",
+        "PlayfabID":  "B26"
+    },
+    {
+        "Player":  "Dukey",
+        "PlayfabID":  "B27"
+    },
+    {
+        "Player":  "Fluffy",
+        "PlayfabID":  "B28"
+    },
+    {
+        "Player":  "Foximus Prime",
+        "PlayfabID":  "B29"
+    },
+    {
+        "Player":  "Frank",
+        "PlayfabID":  "B30"
+    },
+    {
+        "Player":  "Glitter",
+        "PlayfabID":  "B31"
+    },
+    {
+        "Player":  "Grandma",
+        "PlayfabID":  "B32"
+    },
+    {
+        "Player":  "Grandpaw",
+        "PlayfabID":  "B33"
+    },
+    {
+        "Player":  "Greg from Accounting",
+        "PlayfabID":  "B34"
+    },
+    {
+        "Player":  "Ham",
+        "PlayfabID":  "B35"
+    },
+    {
+        "Player":  "Hermione",
+        "PlayfabID":  "B36"
+    },
+    {
+        "Player":  "Honey",
+        "PlayfabID":  "B37"
+    },
+    {
+        "Player":  "Hugs",
+        "PlayfabID":  "B38"
+    },
+    {
+        "Player":  "Kappa",
+        "PlayfabID":  "B39"
+    },
+    {
+        "Player":  "Kenny",
+        "PlayfabID":  "B40"
+    },
+    {
+        "Player":  "Kevin",
+        "PlayfabID":  "B41"
+    },
+    {
+        "Player":  "Kindness",
+        "PlayfabID":  "B42"
+    },
+    {
+        "Player":  "Litter",
+        "PlayfabID":  "B43"
+    },
+    {
+        "Player":  "Love",
+        "PlayfabID":  "B44"
+    },
+    {
+        "Player":  "Lumpadump",
+        "PlayfabID":  "B45"
+    },
+    {
+        "Player":  "Lunchbox",
+        "PlayfabID":  "B46"
+    },
+    {
+        "Player":  "Magnum bot",
+        "PlayfabID":  "B47"
+    },
+    {
+        "Player":  "Maki",
+        "PlayfabID":  "B48"
+    },
+    {
+        "Player":  "Max",
+        "PlayfabID":  "B49"
+    },
+    {
+        "Player":  "Melon",
+        "PlayfabID":  "B50"
+    },
+    {
+        "Player":  "Mittens",
+        "PlayfabID":  "B51"
+    },
+    {
+        "Player":  "Mop",
+        "PlayfabID":  "B52"
+    },
+    {
+        "Player":  "Mr. Pickles",
+        "PlayfabID":  "B53"
+    },
+    {
+        "Player":  "Mr. Purfect",
+        "PlayfabID":  "B54"
+    },
+    {
+        "Player":  "Noob",
+        "PlayfabID":  "B55"
+    },
+    {
+        "Player":  "Not a bot",
+        "PlayfabID":  "B56"
+    },
+    {
+        "Player":  "NotMango",
+        "PlayfabID":  "B57"
+    },
+    {
+        "Player":  "Papaya",
+        "PlayfabID":  "B58"
+    },
+    {
+        "Player":  "Party Bush",
+        "PlayfabID":  "B59"
+    },
+    {
+        "Player":  "Peaches",
+        "PlayfabID":  "B60"
+    },
+    {
+        "Player":  "Pete",
+        "PlayfabID":  "B61"
+    },
+    {
+        "Player":  "Pie",
+        "PlayfabID":  "B62"
+    },
+    {
+        "Player":  "Pixie",
+        "PlayfabID":  "B63"
+    },
+    {
+        "Player":  "Pocket",
+        "PlayfabID":  "B64"
+    },
+    {
+        "Player":  "Pooper Scooper",
+        "PlayfabID":  "B65"
+    },
+    {
+        "Player":  "Potato",
+        "PlayfabID":  "B66"
+    },
+    {
+        "Player":  "Putt Putt",
+        "PlayfabID":  "B67"
+    },
+    {
+        "Player":  "Regret",
+        "PlayfabID":  "B68"
+    },
+    {
+        "Player":  "Sandwich",
+        "PlayfabID":  "B69"
+    },
+    {
+        "Player":  "Saw",
+        "PlayfabID":  "B70"
+    },
+    {
+        "Player":  "Skippy",
+        "PlayfabID":  "B71"
+    },
+    {
+        "Player":  "Soup",
+        "PlayfabID":  "B72"
+    },
+    {
+        "Player":  "Sparky",
+        "PlayfabID":  "B73"
+    },
+    {
+        "Player":  "Stanley",
+        "PlayfabID":  "B74"
+    },
+    {
+        "Player":  "Strawbeary",
+        "PlayfabID":  "B75"
+    },
+    {
+        "Player":  "Susan",
+        "PlayfabID":  "B76"
+    },
+    {
+        "Player":  "Sushi",
+        "PlayfabID":  "B77"
+    },
+    {
+        "Player":  "Sweetpea",
+        "PlayfabID":  "B78"
+    },
+    {
+        "Player":  "Tanner",
+        "PlayfabID":  "B79"
+    },
+    {
+        "Player":  "Thor",
+        "PlayfabID":  "B80"
+    },
+    {
+        "Player":  "Toast",
+        "PlayfabID":  "B81"
+    },
+    {
+        "Player":  "Trash",
+        "PlayfabID":  "B82"
+    },
+    {
+        "Player":  "Wiggles",
+        "PlayfabID":  "B83"
+    },
+    {
+        "Player":  "Your conscience",
+        "PlayfabID":  "B84"
+    }
+]
+

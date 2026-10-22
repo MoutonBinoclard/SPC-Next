@@ -1,4 +1,5 @@
 import os
+import json
 
 def find_rounds_path():
     """
@@ -13,6 +14,21 @@ def find_rounds_path():
         if filename.lower().endswith(".txt")
         and os.path.isfile(os.path.join(rounds_path, filename))
     ]
+
+def find_bot_id(player):
+    """
+    Search directly the PlayfabID of the bot in the SPC_bots.json to add the ID
+    """
+    project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    bots_path = os.path.join(project_path, "SPC_Subcode", "SPC_bots.json")
+
+    with open(bots_path, "r", encoding="utf-8-sig") as file:
+        bots = json.load(file)
+
+    for bot in bots:
+        if bot["Player"] == player:
+            return bot["PlayfabID"]
+
 
 def extract_all_info_from_round(round_path):
     """
@@ -40,6 +56,9 @@ def extract_all_info_from_round(round_path):
         kills = values[-3]
         placement = values[-2]
         true_score = values[-1]
+
+        if playfab_id =="":
+            playfab_id = find_bot_id(player)
 
         round_info[playfab_id] = {
             "pID": p_id,
