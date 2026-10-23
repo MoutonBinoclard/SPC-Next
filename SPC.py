@@ -11,5 +11,8 @@ INCLUDE_BOTS = OPTIONS.get("INCLUDE_BOTS", False)
 rounds = extract_all_info_from_all_rounds(INCLUDE_BOTS)
 print(rounds)
 print()
+
 players = find_players_from_rounds(rounds)
 print(players)
+print()
+

@@ -1,3 +1,5 @@
+import os
+
 def find_players_from_rounds(rounds):
     """
     Extract all the players from all rounds and return them keyed by PlayFab ID
