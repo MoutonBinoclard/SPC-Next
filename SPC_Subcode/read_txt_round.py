@@ -20,7 +20,7 @@ def find_bot_id(player):
     Search directly the PlayfabID of the bot in the SPC_bots.json to add the ID
     """
     project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    bots_path = os.path.join(project_path, "SPC_Subcode", "SPC_bots.json")
+    bots_path = os.path.join(project_path, "SPC_Data", "SPC_bots.json")
 
     with open(bots_path, "r", encoding="utf-8-sig") as file:
         bots = json.load(file)
