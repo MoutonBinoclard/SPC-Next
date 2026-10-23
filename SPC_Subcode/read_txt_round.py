@@ -30,7 +30,7 @@ def find_bot_id(player):
             return bot["PlayfabID"]
 
 
-def extract_all_info_from_round(round_path, bots=False):
+def extract_all_info_from_round(round_path, bots):
     """
     Extract all the information from a round file and return it as a dictionary
     """
@@ -74,7 +74,7 @@ def extract_all_info_from_round(round_path, bots=False):
 
     return round_info
 
-def extract_all_info_from_all_rounds(bots=False):
+def extract_all_info_from_all_rounds(bots):
     """
     Extract all the information from all round files and return it as a dictionary
     """
