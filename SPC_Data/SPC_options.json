@@ -1,4 +1,4 @@
 {
-    "INCLUDE_BOTS": true,
-    "ADJUST_PLACEMENT_IF_NO_BOTS": true
+    "INCLUDE_BOTS": false,
+    "ADJUST_PLACEMENT_IF_NO_BOTS": false
 }
