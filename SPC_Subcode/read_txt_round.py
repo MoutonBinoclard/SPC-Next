@@ -48,14 +48,14 @@ def extract_all_info_from_round(round_path, bots):
         # Split values by tab
         values = line.rstrip("\r\n").split("\t")
 
-        p_id = values[0]
+        p_id = int(values[0])
         player = values[1]
         playfab_id = values[-6]
-        squad_id = values[-5]
-        team_id = values[-4]
-        kills = values[-3]
-        placement = values[-2]
-        true_score = values[-1]
+        squad_id = int(values[-5])
+        team_id = int(values[-4])
+        kills = int(values[-3])
+        placement = int(values[-2])
+        true_score = int(values[-1])
 
         if playfab_id == "":
             if not bots:
