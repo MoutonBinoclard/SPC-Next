@@ -1,13 +1,27 @@
+FALSE_ROUND = [
+    {
+        "pID": -2,
+        "Player": "NON_PLAYED",
+        "SquadID": -2,
+        "TeamID": -2,
+        "Kills": -2,
+        "Placement": -2,
+        "TrueScore": -2
+    }
+]
+
+
+
 def add_rounds_to_players(rounds, players):
     """
     Add the rounds information to the players dictionary
     """
 
-    # Add Rounds section to each player
-    for playfab_id in players:
-        players[playfab_id]["Rounds"] = []
-
-    # Iterate for each round and add the round information to the corresponding player
-    for round in rounds:
-        for playfab_id, round_info in round.items():
-            players[playfab_id]["Rounds"].append(round_info)
+    for playfab_id, player in players.items():
+        player["Rounds"] = []
+        for round in rounds:
+            if playfab_id in round:
+                player["Rounds"].append(round[playfab_id])
+            else:
+                player["Rounds"].append(FALSE_ROUND[0].copy())
+    return players

@@ -17,8 +17,8 @@ A complete rewrite of Super Python Calculator, aiming for better performance and
             "Kills": 0,
             "Placement": 21,
             "TrueScore": 21
-        },
-    }
+        }, ... other players
+    }, ... other rounds
 ]
 ```
 
@@ -32,3 +32,47 @@ the player's PlayFab ID as its key and contains:
 - `Kills`: The number of kills in that round.
 - `Placement`: The player's placement in that round.
 - `TrueScore`: The score calculated for that round.
+
+## `players`
+
+```python
+{
+    "player_id":{
+        "Player": "Player Name",
+        "Rounds": [
+            {
+                "pID": 1,
+                "Player": "Mouton Binoclard on TTV",
+                "SquadID": -1,
+                "TeamID": -1,
+                "Kills": 0,
+                "Placement": 21,
+                "TrueScore": 21
+            }, ... other rounds
+        ]
+    }, ... other players
+}
+```
+
+if the rounds was not player, it will be like this
+
+```python
+
+{
+    "player_id":{
+        "Player": "Player Name",
+        "Rounds": [
+            {
+                "pID": -2,
+                "Player": "NON_PLAYED",
+                "SquadID": -2,
+                "TeamID": -2,
+                "Kills": -2,
+                "Placement": -2,
+                "TrueScore": -2
+            }
+        ]
+    }, ... other players
+}
+```
+
